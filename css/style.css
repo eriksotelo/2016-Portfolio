@@ -1,0 +1,721 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+ /************************
+ GENERAL
+ *************************/
+
+* {
+  margin: 0;
+}
+
+body {
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+     margin: 0 auto;
+     padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+ /************************
+ HEADING
+ *************************/
+
+header, {
+  width: 100%;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: ;
+  width: 100%;
+  background-color: #fff;
+  clear: both;
+}
+
+
+
+header {
+    width: 100%;
+    padding: 0;
+    height: ;
+
+}
+
+
+
+
+#logo {
+
+}
+
+.logo img, object {
+    max-width: 100%;
+    padding: 0;
+    margin: 25px auto;
+}
+
+.skills {
+  background: steelblue;
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.skills li {
+  padding-bottom: 10px;
+}
+
+#erik_png{
+  max-width: 100%;
+  height: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  margin-top: 15px;
+}
+
+#erik_png img {
+  width: 60%;
+}
+
+.desktop {
+  display: none;
+}
+
+.intro {
+  padding: 5% 0 5% 5%;
+}
+
+.intro h1 {
+  font-size: 2em;
+  text-align: center;
+  width: 90%;
+  font-weight: 100;
+  line-height: 1em;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+ /************************
+SITE NAVIGATION
+*************************/
+
+.cbp-lightbox {
+  z-index: 999;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 50px;
+}
+
+ul.nav {
+  font-size: .75em;
+  margin: 0 0 0 0;
+  list-style: none;
+  padding: 0 20px;
+}
+
+ul.nav li {
+  margin-top: 13px;
+  margin-bottom: 13px;
+
+
+}
+
+ul.nav li a {
+  font-size: 1em;
+  font-weight: bolder;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.logo {
+  background-color: #;
+  height: 60px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+nav {
+  background-color: #29abe2;
+  height: ;
+  border-bottom: 1px solid #000;
+
+}
+
+div.logo img{
+  width: 250px;
+  margin: 0 auto;
+  padding: 8px 0;
+  text-align: center;
+}
+
+
+ul.nav a.active {
+  background: #fff;
+  color: #29abe2;
+  border: 1px solid #fff;
+
+}
+
+ul.nav li a:hover {
+  background: #fff;
+  color: #29abe2;
+  border: 1px solid #fff;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+
+li.mix img:hover {
+opacity: .9;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/************************
+ PAGE: UNDER CONSTRUCTION
+ *************************/
+div.coming_soon {
+  text-align: center;
+}
+
+.coming_soon img{
+  margin: 30px auto;
+  width: 300px;
+}
+
+/************************
+ FOOTER
+ *************************/
+
+footer {
+  background-color: #fff;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: ;
+  color: #ccc;
+  padding: 25px;
+  margin: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  border-top: 0px solid #ccc;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border-right: 1px solid #ccc;
+}
+
+footer ul li:first-child, li:last-child {
+  border: none;
+}
+
+footer ul img {
+  margin-right: ;
+}
+
+footer ul {
+  padding: 0;
+  margin-left:;
+  margin-top: 15px;
+}
+
+footer ul a{
+  text-align: center;
+  margin-left: ;
+  font-size: .75em;
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e5e5e5;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+footer a {
+  top: %;
+  padding: 10px;
+}
+
+footer img {
+  width: 50px;
+}
+
+
+/************************
+ COLORS & BACKGROUNDS
+ *************************/
+
+/*site body */
+body {
+    color: ;
+}
+header {
+  margin: 0 auto;
+  width: 100%;
+    background-color: #fbb03b;
+    max-width: 100%;
+}
+
+. {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+h1, h2 {
+    color: #fff;
+}
+
+body {
+    background-color: #fff;
+    color: #999;
+}
+
+
+
+/************************
+CONTACT FORM
+ *************************/
+
+table {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 80%;
+  background-color: ;
+  border: 0 solid gray;
+  margin-top: 30px;
+
+}
+
+input[type="text"], textarea {
+  width: 80%;
+  color: #29ABE2;
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  border-radius: 3px;
+  background-color: #29ABE2;
+  border: 0 none;
+  color: #fff;
+  margin-top: 30px;
+  font-size: em;
+  font-weight: 300;
+  padding: 10px 20px;
+}
+
+tr {
+  margin-bottom: 30px;
+
+}
+
+label {
+  color: #29ABE2;
+}
+input button {
+
+width: 1rem;
+}
+
+.main_content form h2 {
+  margin-top: 30px;
+  max-width: 90%;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+h4 {
+  color: #29ABE2;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-weight: 200;
+}
+
+/************************
+ PORTFOLIO
+ *************************/
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#filters-container {
+    margin: 2.5% 0 2.5% 0;
+    padding: 2%;
+    color: #eee;
+}
+
+#filters-container div {
+  display: inline-block;
+  padding: .2em .4em;
+  border: 0;
+  color: gray;
+  font-size: 1.15em;
+  font-weight: 200;
+  border-radius: px;
+  cursor: pointer;
+  background: #fff;
+  margin-top: 2%;
+  transition: all 1.5s ease;
+}
+
+#filters-container div.active{
+  color: #29ABE2;
+  transition: all 1.5s ease;
+}
+
+
+#filters-container div:hover{
+  color: #29ABE2;
+}
+
+
+
+
+
+/*.container .mix:after{
+  content: attr(data-title);
+  color: tomato;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: ;
+  padding: ;
+  font-weight: 700;
+}*/
+
+/*.container .mix:before{
+  content: '';
+  display: inline-block;
+  padding-top: 60%;
+}*/
+
+
+@media all and (min-width: 420px){
+
+
+  .container .mix,
+  .container .gap{
+    width: 49%;
+  }
+
+
+  .container .mix{
+  margin-bottom: 2%;
+
+}
+
+  header {
+    background-color: #fbb03b;
+    max-width: 100%;
+  }
+
+  .controls{
+  padding: 0 2% 0;
+
+    color: #eee;
+}
+
+
+
+
+@media only screen and (min-width: 768px), (min-width: 700px) and (orientation: landscape) {
+/************************
+SITE NAVIGATION
+*************************/
+
+ul.nav {
+  font-size: .75em;
+  margin: 0 0 0 0;
+  list-style: none;
+  padding-right: 75px;
+}
+
+ul.nav li {
+  margin-top: 13px;
+  float: right;
+}
+
+ul.nav li a {
+  font-size: 1em;
+  font-weight: bolder;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 8px 20px;
+  margin: 0 auto;
+  margin-right: 8px;
+  border: 1px solid #F1D776;
+  border-radius: 2px;
+}
+
+nav {
+  background-color: #426196;
+  height: 60px;
+  border-bottom: 0px solid #000;
+  width: 100%;
+
+}
+
+.logo {
+  border: 0;
+}
+
+div.logo img{
+  width: 250px;
+  float: left;
+  margin-left: 75px;
+  margin-top: 0px;
+  padding: 10px 0;
+}
+
+.logo {
+  float: left;
+}
+
+ul.nav a.active {
+  background: #F1D776;
+  color: #426196;
+  border: 1px solid #F1D776;
+}
+
+ul.nav li a:hover {
+  background: #fff;
+  color: #426196;
+  border: 1px solid #fff;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+
+li.mix img:hover {
+opacity: .9;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+
+  .container .mix,
+  .container .gap{
+    width: 31%;
+
+  }
+
+    .container .mix{
+  margin-bottom: 2%;
+
+}
+
+  header {
+    background-color: #3BBBB2;
+
+
+  }
+
+  #header-wrapper {
+
+    background-image: url(../img/pathway-1149113.jpg);
+    background-position: center;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .about-wrapper {
+
+    /*background-image: url(../img/pathway-1149113.jpg);*/
+    background-color: #F1D776;
+    background-position: center;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: ;
+    margin-top: 100px;
+
+  }
+
+  .about {
+
+  }
+
+  .about-description {
+    height: 350px;
+    background-image: url(../img/pathway-1149113.jpg);
+    background-position: center;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .contact-wrapper {
+
+    /*background-image: url(../img/pathway-1149113.jpg);*/
+    background-color: #95D0DA;
+    background-position: center;
+    max-width: 100%;
+    background-size: cover;
+    height: 400px;
+  }
+  header div {
+  }
+
+  .controls{
+  padding: 0 2% 0;
+
+}
+
+nav .logo {
+}
+
+#erik_png{
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+#erik_png img {
+  width: 45%;
+  float: right;
+  margin-right: %;
+  padding: 0;
+}
+
+.intro h1 {
+  font-size: 2em;
+  text-align: left;
+  float: left;
+  width: 50%;
+  font-weight: 100;
+  line-height: 1em;
+  padding: 0;
+}
+
+.main_content, .secondary_content h1 {
+  font-size: 2em;
+}
+
+div.intro {
+  margin-top: 0;
+}
+
+.main_content form h2 {
+  font-size: 1.5em;
+
+}
+
+
+}
+
+@media all and (min-width: 950px){
+
+#erik_png{
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+#erik_png img {
+  width: 45%;
+  float: right;
+  margin-right: %;
+  padding: 0;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  text-align: left;
+  float: left;
+  width: 42%;
+  font-weight: 100;
+  line-height: 1em;
+  padding: 0;
+}
+
+div.intro {
+  margin-top: 0;
+}
+
+}
+
+@media all and (min-width: 1400px){
+
+#erik_png img {
+  width: 35%;
+  float: right;
+  margin-right: %;
+  padding: 0;
+}
+
+.intro h1 {
+  font-size: 3em;
+  text-align: left;
+  float: left;
+  width: 45%;
+  font-weight: 100;
+  line-height: 1em;
+  padding: 0;
+}
+
+div.intro {
+  margin-top: 0;
+}
+
+}
+
+.cbp-caption-activeWrap {
+  opacity: 0.5;
+}
